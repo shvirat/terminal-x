@@ -1,14 +1,15 @@
 let element = document.querySelector(".container")
 let text = [
-    "• Initializing hack-scripts",
-    "• Initialized, Reading all data",
-    "• Password files detected",
-    "• Copying passwords and replacing with lollipops",
-    "• Checking other files to copy",
-    "• Sending data to Gareeb server",
-    "• All important data copied",
-    "• Final check! Thanks for co-operating",
-    "<i><b>• Now you can get your files just for 50 Bitcoins</i></b>"
+    "▣ Initializing hack-scripts",
+    "► Initialized, Reading all files",
+    "⚠ Password files found!",
+    "≈ Copying password files",
+    "► Checking other files to copy",
+    "□ Uploading data to Gareeb server",
+    "✔ All important data uploaded",
+    "※ You're doomed! but thanks for coperating",
+    " ",
+    "<b>‼ Pay 50BTC to unlock your files.</b>"
 ];
 
 function checkLast() {
