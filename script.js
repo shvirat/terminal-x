@@ -13,7 +13,7 @@ let text = [
 ];
 
 function checkLast() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         let lastEle = element.lastElementChild;
         if (lastEle.innerHTML.endsWith("...")) {
             lastEle.innerHTML = lastEle.innerHTML.slice(0, lastEle.innerHTML.length - 3);
@@ -27,7 +27,7 @@ function checkLast() {
 }
 
 let delay = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         let timeout = 1 + Math.random() * 5;
         setTimeout(() => {
             resolve();
@@ -58,9 +58,9 @@ async function main() {
         addElement(i);
     }
     
+    clearInterval(t);
     await delay();
     await checkLast();
-    clearInterval(t);
 }
 
 main();
