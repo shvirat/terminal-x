@@ -50,7 +50,7 @@ async function main() {
         } else {
             lastEle.innerHTML += ".";
         }
-    }, 300);
+    }, 180);
 
     for (let i of text) {
         await delay();
